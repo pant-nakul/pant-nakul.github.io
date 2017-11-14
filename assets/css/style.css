@@ -831,4 +831,50 @@ footer .container .disclaimer p a {
 	.desktop-menu {
 		display: none;
 	}
+	.container-fluid.transparency {
+		padding: 280px 0 0;
+		background: #00a7cf;
+	}
+	.container-fluid.transparency .text {
+		margin-top: -420px;
+	}
+	.container-fluid.comparison .container .comparison-split .industry {
+		display: table-cell;
+		width: 40%;
+	}
+	.container-fluid.comparison .container .comparison-split .industry .top {
+		padding: 10px 5px;
+		font-size: 16px;
+		line-height: 20px;
+	}
+	.container-fluid.comparison .container .comparison-split .industry .bottom {
+		padding: 10px 5px;
+		font-size: 14px;
+		line-height: 16px;
+	}
+	.container-fluid.comparison .container .comparison-split .industry .bottom span.result {
+		font-size: 24px;
+		line-height: 36px;
+	}
+	.container-fluid.comparison .container .versus {
+		font-size: 16px;
+	}
+	.container-fluid.comparison .container .comparison-split .smartly {
+		display: table-cell;
+		width: 40%;
+	}
+	.container-fluid.comparison .container .comparison-split .smartly .top {
+		padding: 10px 5px;
+		font-size: 16px;
+		line-height: 20px;
+	}
+	.container-fluid.comparison .container .comparison-split .smartly .bottom {
+		padding: 10px 5px;
+		font-size: 14px;
+		line-height: 16px;
+	}
+	.container-fluid.comparison .container .comparison-split .smartly .bottom span.result {
+		font-size: 24px;
+		line-height: 36px;
+	}
 }
