@@ -251,6 +251,11 @@
         });
     }
 
+    //Copyright Text
+    var currentYear = new Date().getFullYear();
+    var text = '&copy;' + ` ${currentYear} All Rights Reserved`
+    document.querySelector('.copyright').innerHTML = text;
+
 
     // Scroll to a Specific Div
     if ($('.scroll-to-target').length) {
